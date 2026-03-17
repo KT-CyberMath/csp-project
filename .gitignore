@@ -1,0 +1,16 @@
+build/
+.vscode/
+*.o
+# build outputs
+client
+server
+build/
+*.o
+
+# local scratch files
+local*.txt
+root/
+client
+server
+*.txt
+*.zip
