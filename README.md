@@ -36,8 +36,7 @@ The project implements a TCP server that manages multiple clients, user home dir
 - Makefile build system
 
 
-1. HOW TO COMPILE THE PROJECT
-
+# 1. HOW TO COMPILE THE PROJECT
 
 The project includes a Makefile that compiles both the server and the client.
 
@@ -55,8 +54,7 @@ The project was developed and tested on Ubuntu 24.04.
 
 
 
-2. HOW TO START THE SERVER (REQUIRES SUDO)
-
+# 2. HOW TO START THE SERVER (REQUIRES SUDO)
 
 Syntax:
     sudo ./server <root_directory> [<IP>] [<port>]
@@ -87,8 +85,7 @@ Note:
     and temporarily drops privileges to enforce per-user file permissions.
     
 
-3. HOW TO START THE CLIENT
-
+# 3. HOW TO START THE CLIENT
 
 Syntax:
     ./client <IP> <port>
@@ -101,8 +98,7 @@ Notes:
 
 
 
-4. HELP AND COMMAND LIST
-
+# 4. HELP AND COMMAND LIST
 
 Typing:
     help
@@ -116,8 +112,7 @@ Unknown or invalid commands return:
 
 
 
-5. USER MANAGEMENT COMMANDS
-
+# 5. USER MANAGEMENT COMMANDS
 
 Create user:
     create_user <username> <permissions>
@@ -135,8 +130,7 @@ Notes:
 
 
 
-6. FILE AND DIRECTORY COMMANDS
-
+# 6. FILE AND DIRECTORY COMMANDS
 
 Change directory:
     cd <path>
@@ -168,8 +162,7 @@ Notes:
     - list also accepts absolute paths under the server root directory.
 
 
-7. READ AND WRITE COMMANDS
-
+# 7. READ AND WRITE COMMANDS
 
 Read file:
     read <path>
@@ -194,8 +187,7 @@ Notes:
 
 
 
-8. UPLOAD AND DOWNLOAD
-
+# 8. UPLOAD AND DOWNLOAD
 
 Upload file:
     upload <local_path> <server_path>
@@ -213,7 +205,7 @@ Notes:
 
 
 
-9. FILE TRANSFER BETWEEN USERS
+# 9. FILE TRANSFER BETWEEN USERS
 
 
 Request file transfer:
@@ -232,8 +224,7 @@ Notes:
 
 
 
-10. EXIT BEHAVIOR
-
+# 10. EXIT BEHAVIOR
 
 Client exit:
     exit
@@ -246,8 +237,7 @@ Server exit:
 
 
 
-11. DESIGN NOTES
-
+# 11. DESIGN NOTES
 
 - TCP client-server architecture
 - Fork-based concurrency
