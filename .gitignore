@@ -1,19 +1,18 @@
-build/
-.vscode/
-*.o
 # build outputs
-client
-server
+/client
+/server
 build/
 *.o
+
+# editor
+.vscode/
 
 # local scratch files
 local*.txt
 root/
-client
-server
-*.txt
+
+# archives
 *.zip
 
-#macOS
+# macOS
 .DS_Store
